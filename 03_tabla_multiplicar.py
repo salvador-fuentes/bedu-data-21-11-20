@@ -10,7 +10,9 @@ numero = int(numero)
 
 for n in range(10):
     r= numero * (n+1)
-    print(r)
+    introduccion = f'A continuacion se muestra la tabla de multiplicar del numero {numero}'
+    print(introduccion) 
+    print({numero * n = r}) 
 
 # TAREA
 # A continuación se muestra la tabla de multiplicar del número <numero>
